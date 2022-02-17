@@ -1,0 +1,47 @@
+/* figma */
+/*
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap");
+*/
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "CormorantInfant";
+	src: url("../fonts/CormorantInfant-Regular.woff2") format("woff2"), url("../fonts/CormorantInfant-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "CormorantInfant";
+	src: url("../fonts/CormorantInfant-Italic.woff2") format("woff2"), url("../fonts/CormorantInfant-Italic.woff") format("woff");
+	font-weight: 400;
+	font-style: italic;
+	font-display: swap;
+}
+@font-face {
+	font-family: "CormorantInfant";
+	src: url("../fonts/CormorantInfant-Bold.woff2") format("woff2"), url("../fonts/CormorantInfant-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}

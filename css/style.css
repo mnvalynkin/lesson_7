@@ -1,0 +1,338 @@
+/* &display=swap */
+
+@import "null.css";
+@import "fonts.css";
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+.content-figma{
+	font-family: "Lato", sans-serif;
+	font-size: 16px;
+	line-height: 160%;
+	color: #424551;
+	max-width: 810px;
+	margin: 38px auto;
+}
+.headline-figma{
+	font-weight: 900;
+	font-size: 46px;
+	color: #1E212C;
+	line-height: 130%;
+	margin: 0 0 26px 0;
+}
+.time-figma{
+	color: #787A80;
+	margin: 0 0 40px 0;
+}
+.time-figma-date{
+	display: inline-block;
+	margin: 0 24px 0 0;
+	padding: 0 0 0 24px;
+	background: url(../img/date.png) 0 5px no-repeat;
+}
+.time-figma-time{
+	display: inline-block;
+	padding: 0 0 0 24px;
+	background: url(../img/time.png) 0 5px no-repeat;
+}
+.img-hr{
+	margin: 0 0 60px 0;
+}
+img{
+	max-width: 100%;
+}
+.text-m{
+	font-weight: 700;
+	font-size: 20px;
+	color: #1E212C;
+	line-height: 150%;
+}
+.text-s{
+margin: 0 0 24px 0;
+}
+.text-l{
+	margin: 0 0 48px 0;
+}
+.content-4{
+	padding: 0 0 0 58px;
+	background: url(../img/braces.png) 0 0 no-repeat;
+}
+
+.list{
+	margin: 0 0 4px 0;
+	padding: 0 0 0 32px;
+	background: url(../img/check.png) 0 5px no-repeat;
+}
+.content-7{
+	margin: 0 0 60px 0;
+}
+.content-figma-more{
+	max-width: 390px;
+}
+.content-figma-more-parag{
+	margin: 0 0 40px 0;
+}
+.content-figma-more-parag-p1{
+	font-weight: 700;
+	font-size: 16px;
+	color: #1E212C;
+	line-height: 150%;
+	margin: 0 0 8px 0;
+}
+.content-figma-more-parag-p2{
+	font-weight: 900;
+	font-size: 46px;
+	color: #1E212C;
+	line-height: 130%;
+}
+.content-figma-more-list{
+	margin: 0 0 48px 0;
+}
+.more-list{
+	margin: 0 0 12px 0;
+	padding: 0 0 0 32px;
+	background: url(../img/check.png) 0 5.67px no-repeat;
+}
+.more-link{
+	display: inline-block;
+	font-weight: 700;
+	font-size: 14px;
+	color: #FFFFFF;
+	line-height: 44px;
+	background-color: #FF3F3A;
+	padding: 0px 32px;
+	border-radius: 4px;
+}
+/*===========================*/
+.menu-practice{
+	font-family: CormorantInfant;
+	font-weight: 700;
+	font-size: 20px;
+	text-shadow: 10px 10px 20px gray;
+	line-height: 150%;
+	text-align: center;
+}
+.menu-ul-b{
+	font-size: 25px;
+	color: blue;
+	text-shadow: 10px 10px 20px red;
+}
+.menu-ul-p{
+	font-size: 25px;
+	color: red;
+	text-shadow: 10px 10px 20px blue;
+}
+.menu-li-b,
+.menu-li-p{
+	font-size: 18px;
+}
+.menu-picasso{
+	background: url(../img/women.jpg) center -60px / auto 520px repeat-x;
+}
+.main-practice{
+	background: rgba(153, 205, 50, 0.63) url(../img/fon.jpg) center 0 / cover no-repeat fixed;
+}
+.text-practice{
+	background: url(../img/fon-git.jpg) center center  / contain repeat-x;
+	background-attachment: fixed;
+	max-width: 1100px;
+	margin: 0 auto;
+	font-family: CormorantInfant;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 150%;
+	text-align: justify;
+}
+.content-biography{
+	margin: 0 0 30px 0;
+}
+.h1-biography{
+	font-family: CormorantInfant;
+	font-weight: 700;
+	font-size: 60px;
+	line-height: 150%;
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: 5px 5px 5px grey;
+	margin: 0 0 20px 0;
+}
+.biography{
+	font-style: italic;
+	background: rgba(255, 255, 255, 0.63) url(../img/picasso.jpg) 0 0 / auto 250px no-repeat ;
+	padding: 0 20px 0 200px;
+	max-height: 250px;
+	overflow: auto;
+	text-indent: 20px;
+	text-shadow: 1px 1px 1px rgb(168, 140, 140);
+	border: 10px solid red;
+	border-radius: 15px;
+	box-shadow: 10px 10px 10px rgba(6, 10, 245, 0.37);
+}
+.content-blue{
+	font-size: 25px;
+	background-color: rgba(37, 238, 238, 0.6);
+	color: rgb(13, 13, 14);
+	text-shadow: 5px 5px 5px gray;
+	border: 5px solid rgb(6, 22, 252);
+	border-radius: 15px;
+	box-shadow: 10px 10px 10px rgba(6, 10, 245, 0.37);
+	margin: 0 0 20px 0;
+}
+.h2-blue{
+	font-family: CormorantInfant;
+	color: blue;
+	font-weight: 700;
+	font-size: 40px;
+	text-align: center;
+	line-height: 150%;
+	text-transform: uppercase;
+	margin: 0 0 20px 0;
+}
+.title-blue,
+.title-pink{
+	font-style: italic;
+	padding: 0 20px;
+	margin: 0 0 20px 0;
+}
+.life,
+.breakfast,
+.absinthe,
+.rendezvous,
+.jew,
+.ironer{
+	border: 2px solid rgb(6, 22, 252);
+	border-radius: 15px;
+	box-shadow: 10px 10px 10px rgba(6, 10, 245, 0.37);
+	margin: 0 10px 20px 10px;
+	overflow: auto;
+}
+.h3-life,
+.h3-breakfast,
+.h3-absinthe,
+.h3-rendezvous,
+.h3-jew,
+.h3-ironer{
+	font-family: CormorantInfant;
+	color: blue;
+	font-weight: 700;
+	font-size: 30px;
+	text-align: center;
+	line-height: 150%;
+	text-transform: uppercase;
+	margin: 0 0 20px 0;
+}
+.life-title,
+.breakfast-title,
+.absinthe-title,
+.rendezvous-title,
+.jew-title,
+.ironer-title,
+.comedian-title,
+.harlequin-title,
+.ball-title,
+.acrobats-title,
+.boy-title,
+.dog-title,
+.comedian-title,
+.harlequin-title,
+.ball-title,
+.acrobats-title,
+.boy-title,
+.dog-title{
+	min-height: 850px;
+	padding: 0 100px 0 650px;
+	text-align: left;
+	overflow: auto;
+}
+
+.life-title{
+	background: url(../img/picasso.jpg) top left / auto 100px repeat-y, url(../img/life.jpg) 100px 0 / 500px auto no-repeat, url(../img/life.jpg) top right / auto 100px repeat-y;
+}
+.breakfast-title{
+	background: url(../img/picasso.jpg) top left / auto 100px repeat-y, url(../img/breakfast.jpg) 100px 0 / 500px auto no-repeat, url(../img/breakfast.jpg) top right / auto 100px repeat-y;
+}
+.absinthe-title{
+	background: url(../img/picasso.jpg) top left / auto 100px repeat-y, url(../img/absinthe.jpg) 100px 0 / 500px auto no-repeat, url(../img/absinthe.jpg) top right / auto 100px repeat-y;
+}
+.rendezvous-title{
+	background: url(../img/picasso.jpg) top left / auto 100px repeat-y, url(../img/rendezvous.jpg) 100px 0 / 500px auto no-repeat, url(../img/rendezvous.jpg) top right / auto 100px repeat-y;
+}
+.jew-title{
+	background: url(../img/picasso.jpg) top left / auto 100px repeat-y, url(../img/Jew.jpg) 100px 0 / 500px auto no-repeat, url(../img/Jew.jpg) top right / auto 100px repeat-y;
+}
+.ironer-title{
+	background: url(../img/picasso.jpg) top left / auto 100px repeat-y, url(../img/ironer.jpg) 100px 0 / 500px auto no-repeat, url(../img/ironer.jpg) top right / auto 100px repeat-y;
+}
+
+.content-pink{
+	font-size: 25px;
+	background-color: rgba(255, 192, 203, 0.6);
+	color: rgb(13, 13, 14);
+	text-shadow: 5px 5px 5px gray;
+	border: 5px solid red;
+	border-radius: 15px;
+	box-shadow: 10px 10px 10px rgba(245, 6, 213, 0.37);
+	
+}
+.h2-pink{
+	font-family: CormorantInfant;
+	color: rgb(245, 45, 78);
+	font-weight: 700;
+	font-size: 40px;
+	text-align: center;
+	line-height: 150%;
+	text-transform: uppercase;
+	margin: 0 0 20px 0;
+}
+.h3-comedian,
+.h3-harlequin,
+.h3-ball,
+.h3-acrobats,
+.h3-boy,
+.h3-dog{
+	font-family: CormorantInfant;
+	color: rgb(245, 45, 78);
+	font-weight: 700;
+	font-size: 30px;
+	text-align: center;
+	line-height: 150%;
+	text-transform: uppercase;
+	margin: 0 0 20px 0;
+}
+.comedian,
+.harlequin,
+.ball,
+.acrobats,
+.boy,
+.dog{
+	border: 2px solid red;
+	border-radius: 15px;
+	box-shadow: 10px 10px 10px rgba(245, 6, 213, 0.37);
+	margin: 0 10px 20px 10px;
+	overflow: auto;
+}
+.comedian-title{
+	background: url(../img/picasso.jpg) top left / auto 100px repeat-y, url(../img/comedian.jpg) 100px 0 / 500px auto no-repeat, url(../img/comedian.jpg) top right / auto 100px repeat-y;
+}
+.harlequin-title{
+	background: url(../img/picasso.jpg) top left / auto 100px repeat-y, url(../img/harlequin.jpg) 100px 0 / 500px auto no-repeat, url(../img/harlequin.jpg) top right / auto 100px repeat-y;
+}
+.ball-title{
+	background: url(../img/picasso.jpg) top left / auto 100px repeat-y, url(../img/ball.jpg) 100px 0 / 500px auto no-repeat, url(../img/ball.jpg) top right / auto 100px repeat-y;
+}
+.acrobats-title{
+	background: url(../img/picasso.jpg) top left / auto 100px repeat-y, url(../img/acrobats.jpg) 100px 0 / 500px auto no-repeat, url(../img/acrobats.jpg) top right / auto 100px repeat-y;
+}
+.boy-title{
+	background: url(../img/picasso.jpg) top left / auto 100px repeat-y, url(../img/boy.jpg) 100px 0 / 500px auto no-repeat, url(../img/boy.jpg) top right / auto 100px repeat-y;
+}
+.dog-title{
+	background: url(../img/picasso.jpg) top left / auto 100px repeat-y, url(../img/dog.jpg) 100px 0 / 500px auto no-repeat, url(../img/dog.jpg) top right / auto 100px repeat-y;
+}
+.footer-practice{
+	background-color: #424551;
+	color: #FFFFFF;
+	text-align: center;
+}
